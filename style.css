@@ -42,10 +42,10 @@ p {
   width: 49%;
   display: inline-block;
   border: none;
+  text-align:right;
 }
 #btn {
   background: #ffffff;
-  
   outline: 1px solid ghostwhite;
   border: none;
   color: #535353;
