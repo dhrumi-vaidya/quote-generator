@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* *:focus {
+  outline: none;
+  border: 1px solid #b9e064aa;
+} */
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: monospace;
+  line-height: normal;
+  margin: 0;
+  color: #535353;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.quote-box {
+  width: 100%;
+  padding: 12px 0;
+  display: inline-block;
+}
+.quote-genrator {
+  background-color: rgb(246, 251, 255);
+  width: 100%;
+  padding: 24px;
+}
+.btn {
+  display: inline-block;
+  border: none;
+}
+#btn {
+  background: #ffffff;
+  outline: 1px solid ghostwhite;
+  border: none;
+  color: #535353;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.075);
+  display: inline-block;
+  font-size: 18px;
+  padding: 12px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  outline: 2px solid ghostwhite;
+  color: rgb(99, 182, 255);
+  transition: 0.1s ease;
+}
+.quote-box h1 {
+  width: 49%;
+  text-align: left;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 32px;
+  padding: 10px 0;
+}
+#text {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+#quote {
+  font-weight: 700;
+  font-size: 28.6px;
+  text-align: center;
+  color: #333333;
+}
+#author {
+  font-weight: 200;
+  font-size: 16px;
+  text-align: right;
+  color: #666666;
+}
