@@ -39,6 +39,7 @@ p {
   padding: 24px;
 }
 .btn {
+  width: 49%
   display: inline-block;
   border: none;
 }
